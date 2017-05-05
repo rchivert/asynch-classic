@@ -7,7 +7,7 @@ function asynch1() : Promise<string>
     {
     let p: Promise<string> = new Promise((resolve, reject) => {
             setTimeout(() => {
-                let data: string = "";
+                let data: string = "1";
                 if (data.length > 0)
                     {
                     console.log(data); 
@@ -26,7 +26,7 @@ function asynch2() : Promise<string>
     {
     let p: Promise<string> = new Promise((resolve, reject) => {
             setTimeout(() => {
-                let data: string = "";
+                let data: string = "2";
                 if (data.length > 0)
                 {
                 console.log(data);
